@@ -219,3 +219,52 @@ a:hover {
   margin-bottom: 20px;
   font-size: 0.75rem;
 }
+
+.tech-wrap {
+  padding: 70px 0;
+}
+
+.tech-wrap h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-bottom: 4rem;
+}
+
+.tech-block {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-block-item {
+  max-width: 200px;
+  text-align: center;
+  color: #101010;
+}
+
+.tech-block-item header {
+  font-weight: 700;
+  color: rgba(16, 16, 16, 0.08);
+  font-size: 100px;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.tech-block-item header img {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.tech-block-item h3 {
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+
+.tech-block-item p {
+  font-weight: 500;
+  font-size: 0.75rem;
+  margin-bottom: 20px;
+}
