@@ -268,3 +268,44 @@ a:hover {
   font-size: 0.75rem;
   margin-bottom: 20px;
 }
+
+.download-wrap {
+  padding: 100px 0;
+  background: #ED4C5C;
+}
+
+.download-block {
+  display: flex;
+}
+
+.download-block-left, .download-block-right {
+  color: #FFFFFF;
+  width: 42%;
+  margin-right: 8%;
+  align-self: center;
+}
+
+.download-block-right img {
+  border-radius: 1rem;
+}
+
+.download-block-left h2 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.download-block-left p{
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.download-block-app {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.download-block-app a{
+  margin-right: 2rem;
+}
