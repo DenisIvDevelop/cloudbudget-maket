@@ -309,3 +309,55 @@ a:hover {
 .download-block-app a{
   margin-right: 2rem;
 }
+
+.contact-wrap {
+  padding: 100px 0;
+}
+
+.contact-block {
+  display: flex;
+}
+
+.contact-block-left {
+  width: 42%;
+  margin-right: 8%;
+  align-self: center;
+}
+.contact-block-right {
+  width: 50%;
+}
+
+.contact-block-left h2 {
+  font-weight: 500;
+  font-size: 2.25rem;
+  margin-bottom: 2rem;
+}
+
+.contact-block-left p{
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.contact-block-right .input-text{
+  width: 100%;
+  border: 1px solid #333333;
+  border-radius: 6px;
+  padding: 20px 30px;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  outline: none;
+}
+
+.contact-block-right .red-btn{
+  color: #fff;
+  background: #ED4C5C;
+  border-radius: 6px; 
+  padding: 10px 30px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
